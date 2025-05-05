@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring MVC Flow Demo</title>
+</head>
+<body>
+    <h1>Spring MVC Flow Demo</h1>
+    <div>
+        <p th:text="${message}">Default message</p>
+        <p>Request path: <span th:text="${path}">path</span></p>
+        <p>Timestamp: <span th:text="${timestamp}">timestamp</span></p>
+    </div>
+</body>
+</html> 
